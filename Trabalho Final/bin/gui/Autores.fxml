@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16">
+   <children>
+      <Pane prefHeight="402.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="300.0" layoutY="25.0" text="Autores">
+               <font>
+                  <Font name="System Bold Italic" size="44.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/Logo_IFSC_ParaVideoaula.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="129.0" layoutX="165.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/IMG-20210526-WA0126_2%20(1).jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="129.0" layoutX="294.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/livia.jfif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="129.0" layoutX="464.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/leticia.jfif" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</VBox>
